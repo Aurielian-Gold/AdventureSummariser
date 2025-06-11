@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">f0950a06b2c2aa10bba30c80ab8caa44</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">f8950a06e8c2aa106f4846651514a221</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-11 21:47:03</sys_created_on>
+        <sys_id>bc950a066dc2aa10670cc4cf4f05c221</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Adventure Summariser" source="x_1402021_advent_0">0fcf790e8382aa103927a4d0deaad363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adventure Summariser">0fcf790e8382aa103927a4d0deaad363</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_bc950a066dc2aa10670cc4cf4f05c221</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-11 21:47:03</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

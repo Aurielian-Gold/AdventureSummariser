@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="76a482c283c2aa103927a4d0deaad304" label="Adventure Summary" max_length="40" name="x_1402021_advent_0_adventure_summary" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Session Notes" max_length="255" name="session_notes" type="string"/>
+        <element label="Generated Notes" max_length="1000" name="generated_notes" type="string"/>
+        <element label="Title" max_length="40" name="title" type="string"/>
+    </element>
+</database>

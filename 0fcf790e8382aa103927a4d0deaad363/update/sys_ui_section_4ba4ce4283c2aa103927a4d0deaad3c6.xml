@@ -4,13 +4,55 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-06-11 21:43:04</sys_created_on>
-            <sys_id>8fa482c283c2aa103927a4d0deaad372</sys_id>
+            <sys_created_on>2025-06-11 21:58:38</sys_created_on>
+            <sys_id>1b38ca0a83c2aa103927a4d0deaad3ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1402021_advent_0_adventure_summary" sys_domain="global" view="Default view">4ba4ce4283c2aa103927a4d0deaad3c6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-06-11 21:43:04</sys_updated_on>
+            <sys_updated_on>2025-06-11 21:58:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-11 21:58:38</sys_created_on>
+            <sys_id>13380e0a83c2aa103927a4d0deaad300</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1402021_advent_0_adventure_summary" sys_domain="global" view="Default view">4ba4ce4283c2aa103927a4d0deaad3c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-11 21:58:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>session_notes</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-11 21:58:38</sys_created_on>
+            <sys_id>1b380e0a83c2aa103927a4d0deaad300</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1402021_advent_0_adventure_summary" sys_domain="global" view="Default view">4ba4ce4283c2aa103927a4d0deaad3c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-11 21:58:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>generated_notes</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-06-11 21:58:38</sys_created_on>
+            <sys_id>13380e0a83c2aa103927a4d0deaad301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1402021_advent_0_adventure_summary" sys_domain="global" view="Default view">4ba4ce4283c2aa103927a4d0deaad3c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-06-11 21:58:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

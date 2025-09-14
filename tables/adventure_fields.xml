@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sys_remote_update_set>
+  <name>Adventure Table Fields</name>
+  <description>Field definitions for the adventure table</description>
+  <sys_remote_update_set>
+    <name>Adventure Fields</name>
+    <description>Fields for adventure table</description>
+    <application>Adventure Summariser</application>
+    <application_scope>global</application_scope>
+    <application_version>1.0.0</application_version>
+    <remote_sys_id>adventure_fields</remote_sys_id>
+  </sys_remote_update_set>
+</sys_remote_update_set>
+
+<!-- Adventure Title -->
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Adventure Title Field</name>
+    <description>Title field for adventure</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>title</name>
+    <table_name>x_adventure_summariser_adventure</table_name>
+    <table_type>0</table_type>
+    <column_label>Adventure Title</column_label>
+    <column_name>title</column_name>
+    <data_type>string</data_type>
+    <default_value/>
+    <description>Title of the D&D adventure</description>
+    <element>title</element>
+    <internal_type>string</internal_type>
+    <max_length>255</max_length>
+    <mandatory>true</mandatory>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_title_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Title</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_adventure_title_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>
+
+<!-- Adventure Description -->
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Adventure Description Field</name>
+    <description>Description field for adventure</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>description</name>
+    <table_name>x_adventure_summariser_adventure</table_name>
+    <table_type>0</table_type>
+    <column_label>Description</column_label>
+    <column_name>description</column_name>
+    <data_type>string</data_type>
+    <default_value/>
+    <description>Detailed description of the adventure</description>
+    <element>description</element>
+    <internal_type>string</internal_type>
+    <max_length>4000</max_length>
+    <mandatory>false</mandatory>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_description_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Description</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_adventure_description_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>
+
+<!-- Session Date -->
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Session Date Field</name>
+    <description>Date field for adventure session</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>session_date</name>
+    <table_name>x_adventure_summariser_adventure</table_name>
+    <table_type>0</table_type>
+    <column_label>Session Date</column_label>
+    <column_name>session_date</column_name>
+    <data_type>glide_date_time</data_type>
+    <default_value/>
+    <description>Date and time of the adventure session</description>
+    <element>session_date</element>
+    <internal_type>glide_date_time</internal_type>
+    <mandatory>true</mandatory>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_session_date_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Session Date</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_adventure_session_date_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>
+
+<!-- Dungeon Master -->
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Dungeon Master Field</name>
+    <description>DM field for adventure</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>dungeon_master</name>
+    <table_name>x_adventure_summariser_adventure</table_name>
+    <table_type>0</table_type>
+    <column_label>Dungeon Master</column_label>
+    <column_name>dungeon_master</column_name>
+    <data_type>string</data_type>
+    <default_value/>
+    <description>Name of the Dungeon Master</description>
+    <element>dungeon_master</element>
+    <internal_type>string</internal_type>
+    <max_length>100</max_length>
+    <mandatory>false</mandatory>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_dm_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Dungeon Master</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_adventure_dm_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>
+
+<!-- Adventure Level -->
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Adventure Level Field</name>
+    <description>Level field for adventure</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>adventure_level</name>
+    <table_name>x_adventure_summariser_adventure</table_name>
+    <table_type>0</table_type>
+    <column_label>Adventure Level</column_label>
+    <column_name>adventure_level</column_name>
+    <data_type>integer</data_type>
+    <default_value>1</default_value>
+    <description>Character level for the adventure</description>
+    <element>adventure_level</element>
+    <internal_type>integer</internal_type>
+    <mandatory>false</mandatory>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_level_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Adventure Level</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_adventure_level_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>
+
+<!-- Session Notes -->
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Session Notes Field</name>
+    <description>Notes field for adventure session</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>session_notes</name>
+    <table_name>x_adventure_summariser_adventure</table_name>
+    <table_type>0</table_type>
+    <column_label>Session Notes</column_label>
+    <column_name>session_notes</column_name>
+    <data_type>string</data_type>
+    <default_value/>
+    <description>Detailed notes from the adventure session</description>
+    <element>session_notes</element>
+    <internal_type>string</internal_type>
+    <max_length>8000</max_length>
+    <mandatory>false</mandatory>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_notes_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Session Notes</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_adventure_notes_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>
+
+<!-- AI Summary -->
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>AI Summary Field</name>
+    <description>Generated AI summary field</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>ai_summary</name>
+    <table_name>x_adventure_summariser_adventure</table_name>
+    <table_type>0</table_type>
+    <column_label>AI Summary</column_label>
+    <column_name>ai_summary</column_name>
+    <data_type>string</data_type>
+    <default_value/>
+    <description>AI-generated summary of the adventure</description>
+    <element>ai_summary</element>
+    <internal_type>string</internal_type>
+    <max_length>8000</max_length>
+    <mandatory>false</mandatory>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_ai_summary_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>AI Summary</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_adventure_ai_summary_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>
+
+<!-- Discord Posted -->
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Discord Posted Field</name>
+    <description>Boolean field for Discord posting status</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>discord_posted</name>
+    <table_name>x_adventure_summariser_adventure</table_name>
+    <table_type>0</table_type>
+    <column_label>Posted to Discord</column_label>
+    <column_name>discord_posted</column_name>
+    <data_type>boolean</data_type>
+    <default_value>false</default_value>
+    <description>Whether the summary has been posted to Discord</description>
+    <element>discord_posted</element>
+    <internal_type>boolean</internal_type>
+    <mandatory>false</mandatory>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_discord_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Posted to Discord</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_adventure_discord_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>

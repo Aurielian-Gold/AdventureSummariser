@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Adventure Table</name>
+    <description>Main table for storing D&D adventure information</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>x_adventure_summariser_adventure</name>
+    <table_name>x_adventure_summariser_adventure</table_name>
+    <table_type>0</table_type>
+    <description>Main table for D&D adventures</description>
+    <label>Adventure</label>
+    <label_plural>Adventures</label_plural>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_table</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Adventure</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_adventure_table</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>

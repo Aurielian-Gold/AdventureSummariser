@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sys_remote_update_set>
+  <name>Adventure Form</name>
+  <description>Form for inputting adventure details</description>
+  <sys_remote_update_set>
+    <name>Adventure Form</name>
+    <description>UI form for adventure input</description>
+    <application>Adventure Summariser</application>
+    <application_scope>global</application_scope>
+    <application_version>1.0.0</application_version>
+    <remote_sys_id>adventure_form</remote_sys_id>
+  </sys_remote_update_set>
+</sys_remote_update_set>
+
+<sys_ui_form>
+  <sys_remote_update_set>
+    <name>Adventure Form</name>
+    <description>Form for adventure input</description>
+  </sys_remote_update_set>
+  <sys_ui_form>
+    <name>Adventure Form</name>
+    <table>x_adventure_summariser_adventure</table>
+    <sys_class_name>sys_ui_form</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_form</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Adventure Form</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_ui_form_adventure_form</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <view>Default view</view>
+  </sys_ui_form>
+</sys_ui_form>
+
+<!-- Form Sections -->
+<sys_ui_section>
+  <sys_remote_update_set>
+    <name>Adventure Details Section</name>
+    <description>Main adventure information section</description>
+  </sys_remote_update_set>
+  <sys_ui_section>
+    <name>Adventure Details</name>
+    <form>adventure_form</form>
+    <sys_class_name>sys_ui_section</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_details_section</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Adventure Details</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_ui_section_adventure_details_section</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <title>Adventure Information</title>
+  </sys_ui_section>
+</sys_ui_section>
+
+<sys_ui_section>
+  <sys_remote_update_set>
+    <name>Session Details Section</name>
+    <description>Session-specific information section</description>
+  </sys_remote_update_set>
+  <sys_ui_section>
+    <name>Session Details</name>
+    <form>adventure_form</form>
+    <sys_class_name>sys_ui_section</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>session_details_section</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Session Details</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_ui_section_session_details_section</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <title>Session Information</title>
+  </sys_ui_section>
+</sys_ui_section>
+
+<sys_ui_section>
+  <sys_remote_update_set>
+    <name>AI Summary Section</name>
+    <description>AI-generated summary section</description>
+  </sys_remote_update_set>
+  <sys_ui_section>
+    <name>AI Summary</name>
+    <form>adventure_form</form>
+    <sys_class_name>sys_ui_section</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>ai_summary_section</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>AI Summary</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_ui_section_ai_summary_section</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <title>Generated Summary</title>
+  </sys_ui_section>
+</sys_ui_section>
+
+<!-- Form Fields -->
+<sys_ui_form_field>
+  <sys_remote_update_set>
+    <name>Title Field</name>
+    <description>Adventure title field</description>
+  </sys_remote_update_set>
+  <sys_ui_form_field>
+    <name>title</name>
+    <form>adventure_form</form>
+    <section>adventure_details_section</section>
+    <sys_class_name>sys_ui_form_field</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>title_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>title</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_ui_form_field_title_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <table>x_adventure_summariser_adventure</table>
+    <type>string</type>
+  </sys_ui_form_field>
+</sys_ui_form_field>
+
+<sys_ui_form_field>
+  <sys_remote_update_set>
+    <name>Description Field</name>
+    <description>Adventure description field</description>
+  </sys_remote_update_set>
+  <sys_ui_form_field>
+    <name>description</name>
+    <form>adventure_form</form>
+    <section>adventure_details_section</section>
+    <sys_class_name>sys_ui_form_field</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>description_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>description</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_ui_form_field_description_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <table>x_adventure_summariser_adventure</table>
+    <type>string</type>
+  </sys_ui_form_field>
+</sys_ui_form_field>
+
+<sys_ui_form_field>
+  <sys_remote_update_set>
+    <name>Session Date Field</name>
+    <description>Session date field</description>
+  </sys_remote_update_set>
+  <sys_ui_form_field>
+    <name>session_date</name>
+    <form>adventure_form</form>
+    <section>session_details_section</section>
+    <sys_class_name>sys_ui_form_field</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>session_date_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>session_date</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_ui_form_field_session_date_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <table>x_adventure_summariser_adventure</table>
+    <type>glide_date_time</type>
+  </sys_ui_form_field>
+</sys_ui_form_field>
+
+<sys_ui_form_field>
+  <sys_remote_update_set>
+    <name>Dungeon Master Field</name>
+    <description>Dungeon Master field</description>
+  </sys_remote_update_set>
+  <sys_ui_form_field>
+    <name>dungeon_master</name>
+    <form>adventure_form</form>
+    <section>session_details_section</section>
+    <sys_class_name>sys_ui_form_field</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>dungeon_master_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>dungeon_master</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_ui_form_field_dungeon_master_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <table>x_adventure_summariser_adventure</table>
+    <type>string</type>
+  </sys_ui_form_field>
+</sys_ui_form_field>
+
+<sys_ui_form_field>
+  <sys_remote_update_set>
+    <name>Adventure Level Field</name>
+    <description>Adventure level field</description>
+  </sys_remote_update_set>
+  <sys_ui_form_field>
+    <name>adventure_level</name>
+    <form>adventure_form</form>
+    <section>session_details_section</section>
+    <sys_class_name>sys_ui_form_field</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_level_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>adventure_level</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_ui_form_field_adventure_level_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <table>x_adventure_summariser_adventure</table>
+    <type>integer</type>
+  </sys_ui_form_field>
+</sys_ui_form_field>
+
+<sys_ui_form_field>
+  <sys_remote_update_set>
+    <name>Session Notes Field</name>
+    <description>Session notes field</description>
+  </sys_remote_update_set>
+  <sys_ui_form_field>
+    <name>session_notes</name>
+    <form>adventure_form</form>
+    <section>session_details_section</section>
+    <sys_class_name>sys_ui_form_field</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>session_notes_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>session_notes</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_ui_form_field_session_notes_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <table>x_adventure_summariser_adventure</table>
+    <type>string</type>
+  </sys_ui_form_field>
+</sys_ui_form_field>
+
+<sys_ui_form_field>
+  <sys_remote_update_set>
+    <name>AI Summary Field</name>
+    <description>AI summary field</description>
+  </sys_remote_update_set>
+  <sys_ui_form_field>
+    <name>ai_summary</name>
+    <form>adventure_form</form>
+    <section>ai_summary_section</section>
+    <sys_class_name>sys_ui_form_field</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>ai_summary_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>ai_summary</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_ui_form_field_ai_summary_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <table>x_adventure_summariser_adventure</table>
+    <type>string</type>
+  </sys_ui_form_field>
+</sys_ui_form_field>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sys_remote_update_set>
+  <name>Adventure Summariser System Properties</name>
+  <description>System properties for AI and Discord configuration</description>
+  <sys_remote_update_set>
+    <name>System Properties</name>
+    <description>Configuration properties for Adventure Summariser</description>
+    <application>Adventure Summariser</application>
+    <application_scope>global</application_scope>
+    <application_version>1.0.0</application_version>
+    <remote_sys_id>system_properties</remote_sys_id>
+  </sys_remote_update_set>
+</sys_remote_update_set>
+
+<!-- AI Provider Selection -->
+<sys_properties>
+  <sys_remote_update_set>
+    <name>AI Provider Property</name>
+    <description>Property to select AI provider</description>
+  </sys_remote_update_set>
+  <sys_properties>
+    <name>adventure_summariser.ai_provider</name>
+    <description>AI provider to use for summary generation (openai, anthropic)</description>
+    <sys_class_name>sys_properties</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>ai_provider_property</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>adventure_summariser.ai_provider</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_properties_ai_provider_property</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <type>choice</type>
+    <value>openai</value>
+    <choices>openai,anthropic</choices>
+  </sys_properties>
+</sys_properties>
+
+<!-- OpenAI API Key -->
+<sys_properties>
+  <sys_remote_update_set>
+    <name>OpenAI API Key Property</name>
+    <description>Property for OpenAI API key</description>
+  </sys_remote_update_set>
+  <sys_properties>
+    <name>adventure_summariser.openai_api_key</name>
+    <description>OpenAI API key for GPT integration</description>
+    <sys_class_name>sys_properties</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>openai_api_key_property</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>adventure_summariser.openai_api_key</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_properties_openai_api_key_property</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <type>password</type>
+    <value/>
+  </sys_properties>
+</sys_properties>
+
+<!-- Anthropic API Key -->
+<sys_properties>
+  <sys_remote_update_set>
+    <name>Anthropic API Key Property</name>
+    <description>Property for Anthropic API key</description>
+  </sys_remote_update_set>
+  <sys_properties>
+    <name>adventure_summariser.anthropic_api_key</name>
+    <description>Anthropic API key for Claude integration</description>
+    <sys_class_name>sys_properties</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>anthropic_api_key_property</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>adventure_summariser.anthropic_api_key</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_properties_anthropic_api_key_property</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <type>password</type>
+    <value/>
+  </sys_properties>
+</sys_properties>
+
+<!-- Discord Webhook URL -->
+<sys_properties>
+  <sys_remote_update_set>
+    <name>Discord Webhook Property</name>
+    <description>Property for Discord webhook URL</description>
+  </sys_remote_update_set>
+  <sys_properties>
+    <name>adventure_summariser.discord_webhook_url</name>
+    <description>Discord webhook URL for posting summaries</description>
+    <sys_class_name>sys_properties</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>discord_webhook_property</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>adventure_summariser.discord_webhook_url</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_properties_discord_webhook_property</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <type>string</type>
+    <value/>
+  </sys_properties>
+</sys_properties>
+
+<!-- Auto-processing Enabled -->
+<sys_properties>
+  <sys_remote_update_set>
+    <name>Auto Processing Property</name>
+    <description>Property for enabling auto-processing</description>
+  </sys_remote_update_set>
+  <sys_properties>
+    <name>adventure_summariser.auto_process</name>
+    <description>Enable automatic processing of new adventures</description>
+    <sys_class_name>sys_properties</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>auto_process_property</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>adventure_summariser.auto_process</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_properties_auto_process_property</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <type>boolean</type>
+    <value>true</value>
+  </sys_properties>
+</sys_properties>
+
+<!-- Max Summary Length -->
+<sys_properties>
+  <sys_remote_update_set>
+    <name>Max Summary Length Property</name>
+    <description>Property for maximum summary length</description>
+  </sys_remote_update_set>
+  <sys_properties>
+    <name>adventure_summariser.max_summary_length</name>
+    <description>Maximum length for AI-generated summaries (in words)</description>
+    <sys_class_name>sys_properties</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>max_summary_length_property</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>adventure_summariser.max_summary_length</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_properties_max_summary_length_property</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <type>integer</type>
+    <value>400</value>
+  </sys_properties>
+</sys_properties>

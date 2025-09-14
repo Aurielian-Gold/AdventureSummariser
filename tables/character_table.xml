@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sys_remote_update_set>
+  <name>Character Table</name>
+  <description>Table for storing character information</description>
+  <sys_remote_update_set>
+    <name>Character Table</name>
+    <description>Table for D&D character information</description>
+    <application>Adventure Summariser</application>
+    <application_scope>global</application_scope>
+    <application_version>1.0.0</application_version>
+    <remote_sys_id>character_table</remote_sys_id>
+  </sys_remote_update_set>
+</sys_remote_update_set>
+
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Character Table</name>
+    <description>Table for character information</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>x_adventure_summariser_character</name>
+    <table_name>x_adventure_summariser_character</table_name>
+    <table_type>0</table_type>
+    <description>Table for D&D character information</description>
+    <label>Character</label>
+    <label_plural>Characters</label_plural>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>character_table</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Character</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_character_table</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>
+
+<!-- Character Name -->
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Character Name Field</name>
+    <description>Name field for character</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>character_name</name>
+    <table_name>x_adventure_summariser_character</table_name>
+    <table_type>0</table_type>
+    <column_label>Character Name</column_label>
+    <column_name>character_name</column_name>
+    <data_type>string</data_type>
+    <default_value/>
+    <description>Name of the D&D character</description>
+    <element>character_name</element>
+    <internal_type>string</internal_type>
+    <max_length>100</max_length>
+    <mandatory>true</mandatory>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>character_name_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Character Name</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_character_name_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>
+
+<!-- Player Name -->
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Player Name Field</name>
+    <description>Player name field for character</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>player_name</name>
+    <table_name>x_adventure_summariser_character</table_name>
+    <table_type>0</table_type>
+    <column_label>Player Name</column_label>
+    <column_name>player_name</column_name>
+    <data_type>string</data_type>
+    <default_value/>
+    <description>Name of the player controlling the character</description>
+    <element>player_name</element>
+    <internal_type>string</internal_type>
+    <max_length>100</max_length>
+    <mandatory>false</mandatory>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>character_player_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Player Name</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_character_player_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>
+
+<!-- Character Class -->
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Character Class Field</name>
+    <description>Class field for character</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>character_class</name>
+    <table_name>x_adventure_summariser_character</table_name>
+    <table_type>0</table_type>
+    <column_label>Class</column_label>
+    <column_name>character_class</column_name>
+    <data_type>string</data_type>
+    <default_value/>
+    <description>D&D character class</description>
+    <element>character_class</element>
+    <internal_type>string</internal_type>
+    <max_length>50</max_length>
+    <mandatory>false</mandatory>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>character_class_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Class</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_character_class_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>
+
+<!-- Character Level -->
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Character Level Field</name>
+    <description>Level field for character</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>character_level</name>
+    <table_name>x_adventure_summariser_character</table_name>
+    <table_type>0</table_type>
+    <column_label>Level</column_label>
+    <column_name>character_level</column_name>
+    <data_type>integer</data_type>
+    <default_value>1</default_value>
+    <description>Character level</description>
+    <element>character_level</element>
+    <internal_type>integer</internal_type>
+    <mandatory>false</mandatory>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>character_level_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Level</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_character_level_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>
+
+<!-- Adventure Reference -->
+<sys_db_object>
+  <sys_remote_update_set>
+    <name>Adventure Reference Field</name>
+    <description>Reference to adventure table</description>
+  </sys_remote_update_set>
+  <sys_db_object>
+    <name>adventure</name>
+    <table_name>x_adventure_summariser_character</table_name>
+    <table_type>0</table_type>
+    <column_label>Adventure</column_label>
+    <column_name>adventure</column_name>
+    <data_type>reference</data_type>
+    <default_value/>
+    <description>Reference to the adventure this character participated in</description>
+    <element>adventure</element>
+    <internal_type>reference</internal_type>
+    <reference>x_adventure_summariser_adventure</reference>
+    <mandatory>true</mandatory>
+    <sys_class_name>sys_db_object</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>character_adventure_field</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Adventure</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_db_object_character_adventure_field</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <tracking_scope>global</tracking_scope>
+  </sys_db_object>
+</sys_db_object>

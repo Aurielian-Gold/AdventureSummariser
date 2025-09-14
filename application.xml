@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sys_remote_update_set>
+  <sys_remote_update_set>
+    <name>Adventure Summariser Application</name>
+    <description>Application for generating AI summaries of D&D adventures and posting to Discord</description>
+    <application>Adventure Summariser</application>
+    <application_scope>global</application_scope>
+    <application_version>1.0.0</application_version>
+    <remote_sys_id>adventure_summariser_app</remote_sys_id>
+  </sys_remote_update_set>
+</sys_remote_update_set>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sys_remote_update_set>
+  <name>Adventure Processing Business Rule</name>
+  <description>Business rule to trigger adventure processing workflow</description>
+  <sys_remote_update_set>
+    <name>Adventure Processing Rule</name>
+    <description>Business rule for adventure processing</description>
+    <application>Adventure Summariser</application>
+    <application_scope>global</application_scope>
+    <application_version>1.0.0</application_version>
+    <remote_sys_id>adventure_processing_rule</remote_sys_id>
+  </sys_remote_update_set>
+</sys_remote_update_set>
+
+<sys_script>
+  <sys_remote_update_set>
+    <name>Adventure Processing Script</name>
+    <description>Script for adventure processing business rule</description>
+  </sys_remote_update_set>
+  <sys_script>
+    <name>Adventure Processing Workflow</name>
+    <script>// Adventure Summariser Processing Business Rule
+// Triggers when adventure record is created or updated
+
+try {
+    // Check if auto-processing is enabled
+    if (!gs.getProperty('adventure_summariser.auto_process', 'true') === 'true') {
+        gs.info('AdventureSummariser: Auto-processing is disabled');
+        return;
+    }
+
+    // Only process if this is a new record or if AI summary is empty
+    if (current.ai_summary.nil() || current.ai_summary.toString() === '') {
+        gs.info('AdventureSummariser: Processing adventure: ' + current.getUniqueValue());
+        
+        // Initialize workflow
+        var workflow = new AdventureSummariserWorkflow();
+        
+        // Process the adventure
+        workflow.onAdventureChange(current, previous);
+        
+    } else {
+        gs.info('AdventureSummariser: Adventure already has AI summary, skipping processing');
+    }
+
+} catch (e) {
+    gs.error('AdventureSummariser: Error in business rule: ' + e.message);
+}</script>
+    <sys_class_name>sys_script</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_processing_script</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Adventure Processing Workflow</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_script_adventure_processing_script</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+  </sys_script>
+</sys_script>
+
+<sys_rule>
+  <sys_remote_update_set>
+    <name>Adventure Processing Rule</name>
+    <description>Business rule for adventure processing</description>
+  </sys_remote_update_set>
+  <sys_rule>
+    <name>Adventure Processing Workflow</name>
+    <script>adventure_processing_script</script>
+    <table>x_adventure_summariser_adventure</table>
+    <sys_class_name>sys_rule</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2024-01-01 00:00:00</sys_created_on>
+    <sys_id>adventure_processing_rule</sys_id>
+    <sys_mod_count>0</sys_mod_count>
+    <sys_name>Adventure Processing Workflow</sys_name>
+    <sys_package>adventure_summariser_app</sys_package>
+    <sys_policy/>
+    <sys_scope>adventure_summariser_app</sys_scope>
+    <sys_update_name>sys_rule_adventure_processing_rule</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2024-01-01 00:00:00</sys_updated_on>
+    <when>after</when>
+    <active>true</active>
+    <advanced>false</advanced>
+    <condition>true</condition>
+    <insert>true</insert>
+    <update>true</update>
+  </sys_rule>
+</sys_rule>
